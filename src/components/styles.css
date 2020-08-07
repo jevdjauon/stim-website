@@ -1,0 +1,354 @@
+.senka svg path {
+  /*fill: red;*/
+}
+
+.senka svg {
+  position: absolute;
+  width: 60vw;
+  margin-left: -450px;
+  margin-top: -160px;
+}
+
+.onamaSenka svg {
+  position: absolute;
+  margin-top: -140px;
+  margin-left: -320px;
+  width: 900px;
+}
+
+.onamaSenka svg path {
+  fill: #f7f7f7;
+}
+
+.onamaSenka2 svg {
+  position: absolute;
+  margin-top: -140px;
+  margin-left: -953px;
+  width: 900px;
+  z-index: -1;
+}
+
+.onamaSenka2 svg path {
+  fill: #f8f8f8;
+}
+
+.proizvodiSenka svg {
+  position: absolute;
+  margin-top: 125px;
+  width: 1050px;
+  z-index: -2;
+}
+
+.proizvodiSenka svg path {
+  fill: #f7f7f7;
+}
+
+.uslugeSenka svg {
+  position: absolute;
+  width: 755px;
+  margin-top: -360px;
+  margin-left: -320px;
+  z-index: -1;
+}
+
+.uslugeSenka svg path {
+  fill: #f7f7f7;
+}
+
+.sertiSenka svg {
+  position: absolute;
+  width: 1240px;
+  margin-top: -400px;
+  margin-left: -320px;
+  z-index: -1;
+}
+
+.sertiSenka svg path {
+  fill: #f7f7f7;
+}
+
+/* Loader */
+
+.lds-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.lds-back {
+  background: white;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.lds-facebook {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+
+.lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 6px;
+  width: 13px;
+  background: #cb1717;
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook div:nth-child(1) {
+  left: 6px;
+  animation-delay: -0.24s;
+}
+.lds-facebook div:nth-child(2) {
+  left: 26px;
+  animation-delay: -0.12s;
+}
+.lds-facebook div:nth-child(3) {
+  left: 45px;
+  animation-delay: 0;
+}
+@keyframes lds-facebook {
+  0% {
+    top: 6px;
+    height: 51px;
+  }
+  50%,
+  100% {
+    top: 19px;
+    height: 26px;
+  }
+}
+
+/* Language button */
+
+.langButton button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  right: 0 !important;
+
+}
+
+.langButton :hover {
+  color: rgba(203, 23, 23, 0.3);
+}
+
+/* Language button */
+
+.langButtonRess button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  right: 0 !important;
+  color: #CB1717;
+}
+
+.trails-text {
+
+}
+
+.imgStl {
+  margin-bottom: 0;
+  width: 160px;
+  height: 140px;
+  padding: 10px 20px;
+  max-height: 140px;
+}
+
+
+/*responsice meni*/
+
+.accordion {
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+.title {
+ text-align: center !important;
+  background-color: transparent !important;
+}
+
+.title::after {
+  display: none !important;
+}
+
+.sertiImg {
+  width: 150px;
+  margin: 40px;
+}
+
+.inputArea {
+  width: 600px;
+  height: 70px;
+  background: #F4F4F4;
+  border: none;
+  margin-bottom: 40px;
+  padding: 0 20px;
+}
+
+.msgArea {
+  width: 600px;
+  height: 200px;
+  background: #F4F4F4;
+  border: none;
+  margin-bottom: 40px;
+  padding: 20px 20px;
+}
+
+.error {
+  width: 600px;
+  height: 70px;
+  background: #F4F4F4;
+  border: none;
+  margin-bottom: 40px;
+  padding: 0 20px;
+  color: #cb1717;
+}
+
+.msgError {
+  width: 600px;
+  height: 200px;
+  background: #F4F4F4;
+  border: none;
+  margin-bottom: 40px;
+  padding: 0 20px;
+  color: #cb1717;
+}
+
+/* animate */
+.trails-text{
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 60px;
+   text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.trails-textRed{
+  color:#cb1717;
+  font-weight: bold;
+}
+
+.lnk {
+  text-decoration: none;
+  width: inherit;
+  height: inherit;
+  color: #cb1717;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 23px;
+  letter-spacing: 0.3em;
+}
+
+
+
+@media only screen and (max-width: 1440px) {
+  .langButton button {
+
+  }
+
+  .proizvodiSenka svg {
+    position: relative;
+    margin-top: 125px;
+  }
+
+  .sertiSenka svg {
+    position: relative;
+    width: 80vw;
+    margin-top: -400px;
+    margin-left: 0px;
+    z-index: -1;
+  }
+
+  .onamaSenka svg {
+    position: absolute;
+    margin-top: -140px;
+    margin-left: -500px;
+    width: 80vw;
+  }
+
+  .onamaSenka2 svg {
+    position: relative;
+    margin-top: -140px;
+    margin-left: 0;
+    width: 80vw;
+  }
+
+  .proizvodiSenka svg {
+    position: relative;
+    margin-top: 125px;
+    width: 80vw;
+  }
+
+  .uslugeSenka svg {
+    position: relative;
+    width: 80vw;
+    margin-top: -360px;
+    margin-left: 0;
+
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .trails-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .imgStl {
+    width: 110px;
+    height: 90px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .sertiImg {
+    width: 100px;
+    margin: 20px;
+  }
+  .inputArea, .msgArea{
+    width: 80vw !important;
+  }
+  .error {
+    width: 80vw !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .sertiImg {
+    width: 80px;
+    margin: 15px;
+  }
+  .imgStl {
+    /*width: 100px;*/
+    /*width: auto;*/
+    /*height: 60px;*/
+  }
+  .lnk {
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.3em;
+  }
+}
